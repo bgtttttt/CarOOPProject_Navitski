@@ -21,7 +21,7 @@
     <ClCompile Include="Car.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="CarDaaler.cpp">
+    <ClCompile Include="CarDealer.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
   </ItemGroup>

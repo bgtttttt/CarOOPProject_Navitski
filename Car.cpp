@@ -1,16 +1,10 @@
 #include "Car.h"
 
-Car::Car() {
-	brand = "no brand";
-	model = "no model";
-	age = 0;
-	price = 0;
+
+Car::Car(string brand, string model, int age, double price) :
+	brand(brand), model(model), age(age), price(price) {
 }
-Car::Car(string initBrand, string initModel, int initAge, double initPrice) {
-	brand = initBrand;
-	model = initModel;
-	age = initAge;
-	price = initPrice;
+Car::Car() : Car("None","None",0,0) {
 }
 
 string Car::getInfo() {
@@ -26,17 +20,19 @@ string Car::getBrand() {
 string Car::getModel() {
 	return model;
 }
-int Car::setAge(int nAge) {
-	age = nAge;
+void Car::setAge(int nAge) {
+	if (age > 0) {
+		this->age = age;
+	}
 }
 int Car::getAge() {
 	return age;
 }
-int Car::setPrice(int nPrice) {
-	price = nPrice;
+void Car::setPrice(int nPrice) {
+	if (price > 0) {
+		this->price = price;
+	}
 }
 int Car::getPrice() {
 	return price;
 }
-
-Car::~Car() {};

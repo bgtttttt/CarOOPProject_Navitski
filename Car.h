@@ -11,15 +11,15 @@ private:
 	double price;
 public:
 	Car();
-	Car(string initBrand, string initModel, int initAge, double initPrice);
+	Car(string, string, int, double);
 
 	string getInfo();
 
 	string getBrand();
 	string getModel();
-	int setAge(int nAge);
+	void setAge(int nAge);
 	int getAge();
-	int setPrice(int nPrice);
+	void setPrice(int nPrice);
 	int getPrice();
 
 	~Car() {};

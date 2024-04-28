@@ -5,7 +5,7 @@ class CarCollection
 {
 private:
 	Car* collection;
-	int size;
+	int size{ 0 };
 public:
 	CarCollection() : size(0) {}
 

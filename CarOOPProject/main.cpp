@@ -8,14 +8,18 @@ int main() {
 
 	collection1.add(car1);
 	collection1.add(car2);
+	
+	cout << "Before:(" << collection1.getSize() << " items)\n";
+	cout << collection1.convertToString();
+
 	collection1.add(car3);
 
-	cout << "Before:(" << collection1.getSize() << " items)\n";
+	cout << "After1:(" << collection1.getSize() << " items)\n";
 	cout << collection1.convertToString();
 
 	collection1.remove(car2);
 
-	cout << "After:(" << collection1.getSize() << " items)\n";
+	cout << "After2:(" << collection1.getSize() << " items)\n";
 	cout << collection1.convertToString();
 
 	return 0;

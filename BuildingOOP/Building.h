@@ -6,6 +6,7 @@ class Building
 	int numOfFlats{ 0 };
 public:
 	Building() {};
+	~Building() {};
 
 	void addFlat(Flat flat);
 

@@ -128,9 +128,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h" />
+    <ClInclude Include="Cat.h" />
+    <ClInclude Include="Crocodile.h" />
+    <ClInclude Include="Giraffe.h" />
+    <ClInclude Include="Tiger.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="Cat.cpp" />
+    <ClCompile Include="Crocodile.cpp" />
+    <ClCompile Include="Giraffe.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Tiger.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

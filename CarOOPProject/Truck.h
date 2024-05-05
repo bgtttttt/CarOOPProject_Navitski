@@ -10,6 +10,7 @@ public:
 	Truck(string brand, string model, int age,
 		double price, double lifting—apacity, double volume) :
 		Car(brand, model, age, price), lifting—apacity(lifting—apacity), volume(volume) {};
+	~Truck() {};
 	double getLiftingCapacity();
 	double getVolume();
 };

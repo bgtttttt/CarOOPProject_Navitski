@@ -9,7 +9,7 @@ public:
 	PassengerCar(string brand, string model, int age,
 		double price, int numberOfSeats, bool isElectric) :
 		Car(brand, model, age, price), numberOfSeats(numberOfSeats), isElectric(isElectric) {};
-
+	~PassengerCar() {};
 	int getNumberOfSeats();
 	bool getIsElectric();
 };

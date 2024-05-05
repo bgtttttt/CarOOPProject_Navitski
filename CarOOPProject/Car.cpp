@@ -1,11 +1,7 @@
 #include "Car.h"
 
 
-Car::Car(string brand, string model, int age, double price) :
-	brand(brand), model(model), age(age), price(price) {
-}
-Car::Car() : Car("None","None",0,0) {
-}
+
 
 string Car::getInfo() {
 	return "Car: brand: " + brand

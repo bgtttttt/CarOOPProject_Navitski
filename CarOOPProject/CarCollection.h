@@ -1,5 +1,7 @@
 #pragma once
 #include "Car.h"
+#include "PassengerCar.h"
+#include "Truck.h"
 
 class CarCollection
 {

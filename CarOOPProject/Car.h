@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <string>
 
@@ -10,8 +11,9 @@ private:
 	int age;
 	double price;
 public:
-	Car();
-	Car(string, string, int, double);
+	Car(string brand, string model, int age, double price) :
+		brand(brand), model(model), age(age), price(price) {}
+	Car() : Car("None", "None", 0, 0) {}
 
 	string getInfo();
 

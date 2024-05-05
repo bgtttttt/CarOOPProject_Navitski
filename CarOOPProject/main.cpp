@@ -2,8 +2,8 @@
 
 int main() {
 	CarCollection collection1;
-	Car car1("BMW", "x5", 5, 15250);
-	Car car2("Toyota", "Highlander", 1, 39270);
+	Truck car1("BMW", "x5", 5, 15250, 10000, 10);
+	PassengerCar car2("Toyota", "Highlander", 1, 39270, 5, false);
 	Car car3("Citroen", "c4", 10, 24851);
 
 	collection1.add(car1);

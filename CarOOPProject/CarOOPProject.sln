@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntegerOOP", "..\IntegerOOP
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BuildingOOP", "..\BuildingOOP\BuildingOOP.vcxproj", "{5B4F209F-A4B2-4E82-AD61-12EF771AA976}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnimalOOP", "..\AnimalOOP\AnimalOOP.vcxproj", "{6588DA57-B527-49AF-8480-7324A9EE86FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{5B4F209F-A4B2-4E82-AD61-12EF771AA976}.Release|x64.Build.0 = Release|x64
 		{5B4F209F-A4B2-4E82-AD61-12EF771AA976}.Release|x86.ActiveCfg = Release|Win32
 		{5B4F209F-A4B2-4E82-AD61-12EF771AA976}.Release|x86.Build.0 = Release|Win32
+		{6588DA57-B527-49AF-8480-7324A9EE86FE}.Debug|x64.ActiveCfg = Debug|x64
+		{6588DA57-B527-49AF-8480-7324A9EE86FE}.Debug|x64.Build.0 = Debug|x64
+		{6588DA57-B527-49AF-8480-7324A9EE86FE}.Debug|x86.ActiveCfg = Debug|Win32
+		{6588DA57-B527-49AF-8480-7324A9EE86FE}.Debug|x86.Build.0 = Debug|Win32
+		{6588DA57-B527-49AF-8480-7324A9EE86FE}.Release|x64.ActiveCfg = Release|x64
+		{6588DA57-B527-49AF-8480-7324A9EE86FE}.Release|x64.Build.0 = Release|x64
+		{6588DA57-B527-49AF-8480-7324A9EE86FE}.Release|x86.ActiveCfg = Release|Win32
+		{6588DA57-B527-49AF-8480-7324A9EE86FE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

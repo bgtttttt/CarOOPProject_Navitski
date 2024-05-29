@@ -24,6 +24,15 @@ public:
 	void setPrice(int nPrice);
 	int getPrice();
 
+	Car operator+(Car& car2) {
+		Car res(brand + "-" + car2.getBrand(), model + "-" + car2.getModel(),
+			age, price + car2.getPrice());
+		return res;
+	}
+	bool operator==(Car& car2) {
+		return brand == car2.getBrand() && model == car2.getModel();
+	}
+
 	~Car() {};
 };
 
